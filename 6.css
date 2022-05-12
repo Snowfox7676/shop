@@ -1,0 +1,292 @@
+.parta
+{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+.partb
+{
+    color: red;
+}
+.partc
+{
+    color: white;
+    background-color: red;
+    max-width: 250px;
+}
+.partd
+{
+    text-align: center;
+}
+.picturea
+{
+    
+    display: flex;
+}
+.pictureb
+{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.pictures
+{
+    display: flex;
+}
+.picturec
+{
+    display: flex;
+}
+.picturetext
+{
+    display: flex;
+    max-width: 100px;
+    margin-left: 30px;
+}
+.picturetexta
+{
+    display: flex;
+    max-width: 200px;
+    margin-left: 70px;
+}
+.picturetextb
+{
+    display: flex;
+    max-width: 100px;
+    margin-left: 70px;
+}
+.text
+{
+ display: flex;
+}
+.t-shirta
+{
+    margin-right: 50px;
+}
+.pictured
+{
+ display: flex;
+ justify-content: center;
+}
+.buttona
+{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+.texta
+{
+    background-color: rgb(230, 230, 230);
+}
+.t-shirtd
+{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.wrapper
+{
+    display: flex;
+    color: white;
+    background-color: red;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 5px black;
+}
+.textb
+{
+    margin-left: 10px;
+}
+.picture
+{
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.textc
+{
+    background-color: yellow;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.form
+{
+    margin-left: 630px;
+}
+.a
+{
+ padding-left: 10px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ box-shadow: 3px 3px 5px 1px black;
+ margin-top: 3px;
+ margin-bottom: 10px;
+ background-color: rgb(237, 231, 231);
+}
+hr
+{
+ box-shadow: 2px 2px 5px 0.5px black;
+ max-width: 200px;
+ min-width: 100px;
+}
+.b
+{
+    margin-left: 630px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+.help
+{
+    position: fixed;
+    margin-left: 1350px;
+    margin-top: 550px;
+    background-color: white; 
+}
+.c
+{
+    
+}
+.present
+{
+    margin-left: -20px;
+    margin-top: 10px;
+    position: fixed;
+    opacity: 0;
+}
+@keyframes ab
+{
+    0%
+    {
+      margin-bottom: 10px;
+    }
+    50%
+    {
+      margin-top: 10px;
+    }
+    100%
+    {
+      margin-bottom: 10px;
+    }
+}
+.abc
+{
+    animation-name: ab;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes ac 
+{
+    0%
+    {
+        margin-left: 500px;
+        margin-top: 500px;
+        background-color: rgb(255, 103, 103);
+    }
+    100%
+    {
+        margin-right: 500px;
+        margin-bottom: 500px;
+        background-color: white;
+    }
+}
+.cba 
+{
+    animation-name: ac;
+    animation-duration: 5s;
+    animation-delay: 1s;
+
+}
+.button123
+{
+    
+}
+.cc
+{
+    position: relative;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin:  auto;
+    box-shadow: 1px 1px 5px 1px black;
+    animation-name: window;
+    animation-duration: 2s;
+}
+.bb
+{
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bb:hover
+{
+  color: red;
+  cursor: pointer;
+}
+.aa
+{
+    position: fixed;
+    z-index: 2;
+    background-color: rgba(170, 175, 180, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    display: none;
+}
+.f
+{
+    background-color: green;
+    color: white;
+}
+.t
+{
+    padding: 3px 15px;
+}
+.u
+{
+  color: green;
+  background-color: yellow;
+}
+.z
+{
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    color: white;
+    padding: 7px;
+}
+.o
+{
+    margin-top : 50px;
+    margin-bottom: 10px;
+}
+@keyframes window
+{
+  from
+  {
+    top: -250px;
+    opacity: 1;
+  }
+  to
+  {
+    top: 0px;
+    opacity: 0,5;
+  }
+}
+.vb
+{
+    background-color: green;
+    color: yellow;
+}
+.arrow
+{
+    margin-top: 150px;
+}
